@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Permutation Cipher</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      input,
+      textarea {
+        display: block;
+        margin: 10px 0;
+      }
+      button {
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Permutation Cipher</h1>
+    <label for="key">Key (sequence of digits):</label>
+    <input type="text" id="key" placeholder="e.g., 3142" />
+    <label for="plaintext">Plaintext:</label>
+    <textarea
+      id="plaintext"
+      rows="4"
+      cols="50"
+      placeholder="Enter your text here"
+    ></textarea>
+    <button onclick="encrypt()">Encrypt</button>
+    <label for="ciphertext">Ciphertext:</label>
+    <textarea id="ciphertext" rows="4" cols="50" readonly></textarea>
+    <button onclick="decrypt()">Decrypt</button>
+    <script src="cipher.js"></script>
+  </body>
+</html>
