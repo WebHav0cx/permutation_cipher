@@ -40,5 +40,5 @@ To use this web application, you only need a modern web browser.
 1. Download or clone the repository to your local machine.
 
 ```sh
-git clone https://github.com/yourusername/permutation-cipher-web.git
+git clone https://github.com/WebHav0cx/permutation_cipher.git
 ```
